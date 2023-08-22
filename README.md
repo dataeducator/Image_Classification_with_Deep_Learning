@@ -1,4 +1,4 @@
-# Image_Classification_with_Deep_Learning
+# Image Classification with Deep Learning
 ***
 
 ![cdc-SrHKQxGuuqQ-unsplash](https://github.com/dataeducator/Image_Classification_with_Deep_Learning/assets/107881738/85901ac6-f445-4f75-b856-e88bf0e9d3de)
