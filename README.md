@@ -29,7 +29,8 @@ We will prioritize ______ in this project over ______. By prioritizing ______, w
 
 ## Source of Data
 The Mendeley repository contains a dataset for evaluating machine learning techniques. The dataset used in this exploration is from this repository and can be found [here]((https://data.mendeley.com/datasets/rscbjbr9sj/2).)]
-Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
+-Citation: Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
+
 Contained within this dataset are numerous validated OCT and Chest X-Ray images, which have been meticulously described and analyzed in the publication titled "Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning." These images have been categorized into distinct training and testing sets, each involving separate patients. Organized into four directories—CNV, DME, DRUSEN, and NORMAL—the images are appropriately labeled using a format of (disease)-(randomized patient ID)-(image number within patient).
 
 
