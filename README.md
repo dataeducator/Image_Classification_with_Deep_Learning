@@ -1,7 +1,8 @@
 # Image Classification with Deep Learning
 ***
+[Source: CDC on Unsplash]![cdc-SrHKQxGuuqQ-unsplash](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/fc6707d7-9dcf-49c4-915f-f504331c79c0)
 
-![cdc-SrHKQxGuuqQ-unsplash](https://github.com/dataeducator/Image_Classification_with_Deep_Learning/assets/107881738/85901ac6-f445-4f75-b856-e88bf0e9d3de)
+
 
 # Business Understanding:
 * __Stakeholder__: Zephyr Health
