@@ -128,7 +128,7 @@ You may contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you have 
    .
    └──image_classification_with_deep_learning/
       ├── README.md                                            Overview for project reviewers  
-      ├── student_academic_success.ipynb                       Documentation of Full Analysis in Jupyter Notebook
+      ├── image_classification_with_deep_learning.ipynb        Documentation of Full Analysis in Jupyter Notebook
       ├── presentation.pdf                                     PDF version of Full Analysis shown in a slide deck
       ├── notebook.pdf                                         PDF version of Full Analysis shown in Jupyter notebook
       ├── Images/                                              Includes images generated from Python code and sourced externally
