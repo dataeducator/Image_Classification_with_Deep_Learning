@@ -1,0 +1,26 @@
+title: Downloading and Preparing Pneumonia Dataset for Deep Learning Analysis
+
+steps:
+  - name: Create or Log in to Your Kaggle Account
+    description: If you do not already have a Kaggle account, create one. If you have an account, log in.
+
+  - name: Access the Pneumonia Dataset
+    description: Go to the following direct link to access Paul Timothy Mooney's Pneumonia dataset on Kaggle:
+    links:
+      - title: Pneumonia Dataset
+        url: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+
+  - name: Download the Dataset
+    description: On the dataset page, you will see a "Download" button. Click on it to download the dataset.
+    image:
+      - title: Download Button
+        path: Kaggle_Dataset.png
+
+  - name: Unzip the File
+    description: After downloading, unzip the archive. This will create a folder named 'archive' that contains the dataset.
+
+  - name: Add the Unzipped Archive to Your Google Drive
+    description: To use this notebook, you will need to provide the location of the .zip file in your Google Drive.
+
+  - name: Run the Next Two Cells Without Making Any Changes
+    description: Mount your Google Drive to allow Colab access to your Google Drive. Unzip the file so you can use the contents of this notebook. The file should include 'train', 'test', and 'val' folders that contain subfolders with both 'NORMAL' and 'PNEUMONIA' images.
