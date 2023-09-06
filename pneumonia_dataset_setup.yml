@@ -22,5 +22,5 @@ steps:
   - name: Add the Unzipped Archive to Your Google Drive
     description: To use this notebook, you will need to provide the location of the .zip file in your Google Drive.
 
-  - name: Run the Next Two Cells Without Making Any Changes
+  - name: Run the Cells labeled Run Without Making Any Changes
     description: Mount your Google Drive to allow Colab access to your Google Drive. Unzip the file so you can use the contents of this notebook. The file should include 'train', 'test', and 'val' folders that contain subfolders with both 'NORMAL' and 'PNEUMONIA' images.
