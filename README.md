@@ -12,6 +12,7 @@ The author and contributors off this noteboo disclaim any liability for the accu
 * __Stakeholder__: Zephyr Health
 * __Business Case__: I am a new data analyst on the Data Analytics team and have been tasked with building a model to classify whether a given patient has pneumonia given a chest x-ray.
 
+According to a 2022 report (click [here](https://www.jhsph.edu/ivac/wp-content/uploads/2019/10/PDPR_2022.pdf) for full report) by Johns Hopkins over __700 thousand children under 5__ die from pneumonia each year.
 # Objectives
 The main objectives of this project are:
 
