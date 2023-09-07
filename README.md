@@ -32,7 +32,7 @@ Ex. patients predicted to have PNEUMONIA and do have PNEUMONIA.
 
 * __False positives__ are the cases when a model predicts positive instances incorrectly. Ex. patients are predicted to have PNEUMONIA, but the chest scan label is NORMAL.
 
-* ___False negatives__ are the cases when a model mispredicts negative instances. Ex. patients predicted to have NORMAL chest scans and do have PNEUMONIA.
+* __False negatives__ are the cases when a model mispredicts negative instances. Ex. patients predicted to have NORMAL chest scans and do have PNEUMONIA.
 
 
 
