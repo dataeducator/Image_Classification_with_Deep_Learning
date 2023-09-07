@@ -23,6 +23,10 @@ The main objectives of this project are:
 Our task is in essence a binary classification problem that uses chest x-ray images as input. Our model will provide a prediction of whether the images is one that depicts PNEUMONIA or depicts a NORMAL chest x-ray. We will set the goal of __at least 90%  for the f-1 score__ .
 For our project we will use F1-score or the harmonic mean of recall and precision.
 
+<div align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=F1-Score%20%3D%20%5Cfrac%7B2%20%5Ccdot%20True%5C%20Positive%7D%7B2%20%5Ccdot%20True%5C%20Positive%20%2B%20False%5C%20Positive%20%2B%20False%5C%20Negative%7D"><br><br>
+  <img src="https://render.githubusercontent.com/render/math?math=Our%5C%20model%5C%20will%5C%20be%5C%20successful%5C%20where%5C%20F1-Score%5C%20%5Cgeq%20.90">
+</div>
 \begin{gathered}
 F1-Score  = \frac{2 \cdot True\ Positive}{2 \cdot True\ Positive + False\ Positive + False\ Negative}
 \end{gathered}
