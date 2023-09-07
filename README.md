@@ -49,12 +49,12 @@ The chest X-ray images, captured in the anterior-posterior view, were meticulous
 
 An initial quality control screening was performed to ensure the quality of the analysis of chest X-ray images. This screening involved the removal of scans that were of low quality or deemed unreadable. Following this step, the images underwent diagnosis assessment. Two expert physicians assessed and graded the diagnoses associated with the images before they were deemed suitable for training the AI system. Additionally, a third expert reviewed the evaluation set to account for any potential grading discrepancies.
 
+
+![Class Distribution across sets](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/ac6c107e-a5f2-4343-b3d1-759b97dff743)
+
 These images fall into two distinct categories:
 - Pneumonia
 - Normal
-![Class Distribution across sets](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/ac6c107e-a5f2-4343-b3d1-759b97dff743)
-
-
 
 
 The data was biased with the PNEUMONIA class having more than twice the number of images as the NORMAL class, so the PNEUMONIA class was shortened to a random selection of images equal to the number of NORMAL images in the training set.
