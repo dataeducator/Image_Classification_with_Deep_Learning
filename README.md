@@ -27,9 +27,9 @@ For our project we will use F1-score or the harmonic mean of recall and precisio
   <img src="https://render.githubusercontent.com/render/math?math=F1-Score%20%3D%20%5Cfrac%7B2%20%5Ccdot%20True%5C%20Positive%7D%7B2%20%5Ccdot%20True%5C%20Positive%20%2B%20False%5C%20Positive%20%2B%20False%5C%20Negative%7D"><br><br>
   <img src="https://render.githubusercontent.com/render/math?math=Our%5C%20model%5C%20will%5C%20be%5C%20successful%5C%20where%5C%20F1-Score%5C%20%5Cgeq%20.90">
 </div>
-\begin{gathered}
+\text
 F1-Score  = \frac{2 \cdot True\ Positive}{2 \cdot True\ Positive + False\ Positive + False\ Negative}
-\end{gathered}
+\text
 
 Our model will be successful where:
 
