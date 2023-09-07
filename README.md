@@ -31,8 +31,10 @@ This formula represents the F1-score, which is a metric used to evaluate the per
 
 Our model will be successful where:
 
-\begin{gathered}
-F1-Score  >= .90
+$$\
+F1\text{-}Score > .90
+\$$
+
 \end{gathered}
 
 ## Source of Data
