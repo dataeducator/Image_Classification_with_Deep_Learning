@@ -3,7 +3,11 @@
 ![Detecting Penumonia with Deep Learning](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/7259f2f8-e4f5-412b-bd02-a66aac2b6058)
 
 
-
+# Introduction: 
+#### __Disclaimer:__
+This work is __intended solely for educational purposes__. The included business case and the results of the deep learning models should not be interpreted as medical advice, and have not received endorsement or approval from any professional or medical organization.
+The models and outcomes presented here are for illustrative purposes __only__ and should __not__ be be utilized for making real-world decisions without consulting appropriate domain experts and medical professionals. Any actions taken based on the information in this notebook are at the user's own risk.
+The author and contributors off this noteboo disclaim any liability for the accuracy, completeness, or efficacy of the information provided.
 # Business Understanding:
 * __Stakeholder__: Zephyr Health
 * __Business Case__: I am a new data analyst on the Data Analytics team and have been tasked with building a model to classify whether a given patient has pneumonia given a chest x-ray.
