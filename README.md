@@ -12,33 +12,25 @@ The author and contributors off this noteboo disclaim any liability for the accu
 * __Stakeholder__: Zephyr Health
 * __Business Case__: I am a new data analyst on the Data Analytics team and have been tasked with building a model to classify whether a given patient has pneumonia given a chest x-ray.
 
-# Overview
+# Objectives
 The main objectives of this project are:
 
 * Develop a robust and efficient system for early childhood pneumonia detection using a Convolutional Neural Network(CNN), which detects the presence of pneumonia with high precision.
 * Generate a system that can be validated and deployed across various healthcare settings to reach underserved populations.
 
-# Data Understanding and Analysis
-***
-In this project, I will use the OSEMiN pipeline to:
+# Metrics for evaluation
+Our task is in essence a binary classification problem that uses chest x-ray images as input. Our model will provide a prediction of whether the images is one that depicts PNEUMONIA or depicts a NORMAL chest x-ray. We will set the goal of __at least 90%  for the f-1 score__ .
+For our project we will use F1-score or the harmonic mean of recall and precision.
 
-* Obtain → Import the data.
-* Scrub → Manage the datatypes and resolve missing data or duplicates.
-* Explore → Identify patterns within the relationships between variables in the data.
-* Model → Create a set of predictive models.
-* iNterpret → Identify insights and create visualizations of findings.
+\begin{gathered}
+F1-Score  = \frac{2 \cdot True\ Positive}{2 \cdot True\ Positive + False\ Positive + False\ Negative}
+\end{gathered}
 
-Metrics
-We will prioritize precision in this project over accuracy. We will also aim to balance recall (sensitivity) and high precision (specificity). With these objectives in mind, we aim to reduce the number of false positives and increase the model's ability to correctly identify patients with pneumonia. In this context, false positives could lead to unnecessary treatment or interventions.
+Our model will be successful where:
 
-* __True positives__ are the cases when a model predicts positive instances correctly.
-Ex. patients predicted to have PNEUMONIA and do have PNEUMONIA.
-
-* __False positives__ are the cases when a model predicts positive instances incorrectly. Ex. patients are predicted to have PNEUMONIA, but the chest scan label is NORMAL.
-
-* __False negatives__ are the cases when a model mispredicts negative instances. Ex. patients predicted to have NORMAL chest scans and do have PNEUMONIA.
-
-
+\begin{gathered}
+F1-Score  >= .90
+\end{gathered}
 
 ## Source of Data
 The Mendeley repository contains a dataset for evaluating machine learning techniques. The dataset used in this exploration is from this repository and can be found [here]((https://data.mendeley.com/datasets/rscbjbr9sj/2).)]
@@ -57,64 +49,20 @@ An initial quality control screening was performed to ensure the quality of the 
 These images fall into two distinct categories:
 - Pneumonia
 - Normal
+![Class Distribution across sets](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/ac6c107e-a5f2-4343-b3d1-759b97dff743)
 
-First, I needed to import relevant libraries and packages to determine answers to my guiding questions.
-
-* <code>pandas</code>: a data analysis and manipulation library which allows for flexible reading, writing, and reshaping of data
-* <code>numpy</code>: a key library that brings the computational power of languages like C to Python
-* <code>matplotlib</code>: a comprehensive visualization library
-* <code>seaborn</code>: a data visualization library based on matplotlib
-* <code>statsmodels</code>: a library used to understand statistical relationships between variables, often used in economics.
-* <code>sklearn</code>: a machine learning library for data processing and modeling.
-* <code>keras</code>:
+The data was biased with the PNEUMONIA class having more than twice the number of images as the NORMAL class, so the PNEUMONIA class was shortened to a random selection of images equal to the number of NORMAL images in the training set.
+![Class Distribution rebalanced training set](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/dda7cbf1-b39f-45c4-bcfa-f59bc742fee7)
 
 ## Modeling
 
-### Obtain
-__ObtainData Class Description__
-The <code>ObtainData</code> class is a utility class designed to retrieve Google Drive data. This class provides an approach to mount Google Drive, verify the existence of a specified dataset folder, and extract its contents if necessary.
 
-__Features:__
+### Visualizations 
 
-* Mounts Google Drive to the Colab environment, providing users access to the files stored in their Google Drive.
-* Prompts the user to input the location of the dataset folder within their Google Drive
-* Checks to see if the specified dataset folder exists and provides feedback to the user.
-* If the dataset folder exists, this class provides a convenient way to access the dataset files.
+![Pixel Intensities of Sample Images](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/b0b11796-c5b4-4afd-a620-7402e6830588)
 
-__Usage:__
-
-* Create an instance of the ObtainData class.
-* Invoke the get_dataset_location() method to prompt the user to input the location of the dataset folder in their Google Drive.
-* The class automatically verifies the existence of the specified folder and provides feedback accordingly.
-* The dataset files can then be accessed and processed as needed.
-
-### Scrub
-
-
-### Explore
-
-
-
-### Visualization 
-
-
-
-### Model
-
-
-### Evaluation
-
-
-### iNterpret
 
 ## Conclusion
-
-## Insights
-Based on the information from the confusion matrices and feature analysis, we recommend the following:
-
-
-
- 
 
 
 # Future Work
