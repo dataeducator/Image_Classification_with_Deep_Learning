@@ -1,6 +1,6 @@
 # Image Classification with Deep Learning
 ***
-[Source: CDC on Unsplash]![cdc-SrHKQxGuuqQ-unsplash](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/fc6707d7-9dcf-49c4-915f-f504331c79c0)
+![Detecting Penumonia with Deep Learning](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/7259f2f8-e4f5-412b-bd02-a66aac2b6058)
 
 
 
