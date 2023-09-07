@@ -89,5 +89,5 @@ You may contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you have 
       ├── image_classification_with_deep_learning.ipynb        Documentation of Full Analysis in Jupyter Notebook
       ├── presentation.pdf                                     PDF version of Full Analysis shown in a slide deck
       ├── notebook.pdf                                         PDF version of Full Analysis shown in Jupyter notebook
-      ├── setup.yml                                            Includes instructions to obtain dataset that corresponds to this repository
+      ├── setup.yml                                            Includes instructions to obtain dataset
       └── .gitignore                                           Specifies intentionally untracked files
