@@ -24,7 +24,7 @@ Our task is in essence a binary classification problem that uses chest x-ray ima
 For our project we will use F1-score or the harmonic mean of recall and precision.
 
 $$\text
-F1-Score  = \frac{2 \cdot True\ Positive}{2 \cdot True\ Positive + False\ Positive + False\ Negative}
+{F1-Score}  = \frac{2 \cdot True\ Positive}{2 \cdot True\ Positive + False\ Positive + False\ Negative}
 \text$$
 
 Our model will be successful where:
