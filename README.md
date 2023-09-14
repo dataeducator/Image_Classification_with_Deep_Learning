@@ -62,6 +62,7 @@ The data was biased with the PNEUMONIA class having more than twice the number o
 ![Class Distribution rebalanced training set](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/dda7cbf1-b39f-45c4-bcfa-f59bc742fee7)
 
 ## Modeling
+![Model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/c09fbb0b-835b-4e59-8a05-8d1fd41183a6)
 
 
 ### Visualizations 
