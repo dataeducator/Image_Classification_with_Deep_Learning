@@ -36,10 +36,17 @@ F1\text{-}Score > .90
 \$$
 
 ## Source of Data
-The Mendeley repository contains a dataset for evaluating machine learning techniques. The dataset used in this exploration is from this repository and can be found [here]((https://data.mendeley.com/datasets/rscbjbr9sj/2).)]
+The dataset used in this exploration is from this repository and can be found [here]((https://data.mendeley.com/datasets/rscbjbr9sj/2).)]
 -Citation: Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images,” Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
 
-Contained within this dataset are numerous validated OCT and Chest X-ray images, which have been meticulously described and analyzed in the publication titled "Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning." These images have been categorized into distinct training and testing sets, each involving separate patients. Organized into four directories—CNV, DME, DRUSEN, and NORMAL—the images are appropriately labeled using a format of (disease)-(randomized patient ID)-(image number within the patient).
+|Set| Class| Number of Images|
+|------------------------------|
+|Train|NORMAL| 1341|
+|Train|PNEUMONIA|3875|
+|Test|NORMAL| 234|
+|Test| PNEUMONIA|390|
+|Val|NORMAL|8|
+|Val|PNEUMONIA|8|
 
 
 ## Description of Data
