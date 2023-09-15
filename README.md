@@ -74,6 +74,22 @@ The data was biased, with the PNEUMONIA class having more than twice the number 
 
 
 ## Modeling
+In this project, I will use the __OSEMiN__ pipeline to:
+
+- Obtain → Import the data.
+- Scrub → Manage the datatypes and resolve missing data or duplicates.
+- Explore → Identify patterns within the relationships between variables in the data.
+- Model → Create a set of predictive models.
+- iNterpret → Identify insights and create visualizations of findings.
+
+For our model, we could prioritize:
+
+- accuracy - the proportion of correctly predicted labels from all of the samples in the testing dataset.
+- precision - measures the model's accuracy in predicting true positives as a proportion of all positives.
+- recall- measures the model's ability to measure all positive instances correctly.
+- f1-score - the harmonic mean of precision and recall, used when we want to consider both identifying true positives and minimizing false negatives.
+
+Our best model uses sequential, convolutional, dense, and dropout layers and is illustrated below:
 ![Model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/c09fbb0b-835b-4e59-8a05-8d1fd41183a6)
 | Model                   | Precision (NORMAL) | Recall (NORMAL) | F1-Score (NORMAL) | Precision (PNEUMONIA) | Recall (PNEUMONIA) | F1-Score (PNEUMONIA) | Accuracy | 
 |-------------------------|--------------------|----------------|------------------|---------------------|--------------------|---------------------|----------|
@@ -82,8 +98,15 @@ The data was biased, with the PNEUMONIA class having more than twice the number 
 
 
 ## Insights
+The Confusion Matrix for our Test set is shown here:
 ![Confusion Matrix best model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/aec157e2-2d7b-4257-828b-6df88e9ed755)
+
+We also compare the F1-Scores of the different models we tested out as we attempted this proof of concept task:
 ![F1-scores different models](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/e79aac2b-8736-469e-a703-1e673746a2cd)
+
+We also experimented with LIME in an attempt to make what our model identifies as important features visible. Here is an example of an image, it's true classification label,
+it's a predicted classification label and a segmented image that highlights "features" of importance to our current best model.
+
 ![Lime Output](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/8de0095d-c294-4af2-95fd-5003b39e3db5)
 
 ## Recommendations:
