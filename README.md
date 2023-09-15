@@ -67,26 +67,38 @@ The data was biased, with the PNEUMONIA class having more than twice the number 
 
 ![Class Distribution rebalanced training set](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/dda7cbf1-b39f-45c4-bcfa-f59bc742fee7)
 
-## Modeling
-![Model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/c09fbb0b-835b-4e59-8a05-8d1fd41183a6)
-![Confusion Matrix best model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/aec157e2-2d7b-4257-828b-6df88e9ed755)
 
-### Visualizations 
+### Exploration
 
 ![Pixel Intensities of Sample Images](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/b0b11796-c5b4-4afd-a620-7402e6830588)
 
+
+## Modeling
+![Model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/c09fbb0b-835b-4e59-8a05-8d1fd41183a6)
+| Model                   | Precision (NORMAL) | Recall (NORMAL) | F1-Score (NORMAL) | Precision (PNEUMONIA) | Recall (PNEUMONIA) | F1-Score (PNEUMONIA) | Accuracy | 
+|-------------------------|--------------------|----------------|------------------|---------------------|--------------------|---------------------|----------|
+| Revised CNN             | 0.94               | 0.76           | 0.84             | 0.87                | 0.97               | 0.92                | 0.89     |
+| Baseline CNN            | 0.40               | 0.19           | 0.26             | 0.63                | 0.83               | 0.72                | 0.59     |
+
+
+## Insights
+![Confusion Matrix best model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/aec157e2-2d7b-4257-828b-6df88e9ed755)
 ![F1-scores different models](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/e79aac2b-8736-469e-a703-1e673746a2cd)
+![Lime Output](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/8de0095d-c294-4af2-95fd-5003b39e3db5)
 
-## Conclusion
+## Recommendations:
+*Expert-evaluated data for Model Enhancement
+Utilizing images that have been expert-evaluated is crucial for improving the accuracy and performance of our model. This can be achieved through the following steps:
+- **Collaboration with Radiology Experts**: Establish partnerships with radiologists and other medical professionals to evaluate X-ray images. Their expertise will contribute to a high-quality annotated dataset.
+- **Continuous Feedback Loop**: Implement a feedback mechanism to incorporate expert evaluations into the training pipeline, ensuring the model learns from expert insights.
+* Optimal Scanner Placements
+To maximize the effectiveness of our Pneumonia detection system, it is recommended to strategically deploy X-ray scanners and computer systems with our model in the following locations to run a pilot to collect more expert verifiable data:
+- **Pediatric Wards and Clinics**: Ensure accessibility to children in healthcare facilities where pneumonia cases are most frequently diagnosed and treated.
+- **High-Risk Areas and Communities**: Identify regions with elevated incidences of childhood pneumonia and establish scanning facilities near these communities.
 
-
-# Future Work
-* Explore applying...
-* Extending the analysis to include... 
-* Identifying...
-
+## Future Work: 
 Please review my full analysis in [my Jupyter notebook]( ) or ([my presentation]( )).
-Feel free to contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you have additional questions.
+Feel free to contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you have any more questions.
 
 # Repository Structure
 ***
