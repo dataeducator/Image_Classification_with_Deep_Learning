@@ -102,7 +102,7 @@ We included a comparison of our baseline model and our best revised CNN with eva
 
 ## Insights
 - For the "NORMAL" class, the revised model exhibits significantly higher precision, recall, and F1-score values, indicating a more accurate identification of normal cases. 
-- For the "PNEUMONIA" class, the revised model demonstrates improved performance across all metrics for the " PNEUMONIA " class, suggesting it is more effective at detecting pneumonia cases than the baseline model.
+- For the "PNEUMONIA" class, the revised model demonstrates improved performance across all metrics, suggesting it is more effective at detecting pneumonia cases than the baseline model.
 - Overall, the revised model achieves a substantially higher accuracy of 89% compared to the baseline model's 59%, highlighting its superior performance.
   
 The Confusion Matrix for our Test set is shown here:
@@ -139,5 +139,5 @@ Feel free to contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you 
       ├── image_classification_with_deep_learning.ipynb        Documentation of Full Analysis in Jupyter Notebook
       ├── presentation.pdf                                     PDF version of Full Analysis shown in a slide deck
       ├── notebook.pdf                                         PDF version of Full Analysis shown in Jupyter notebook
-      ├── setup.yml                                            Includes instructions to obtain dataset
+      ├── setup.yml                                            Includes instructions to obtain the dataset
       └── .gitignore                                           Specifies intentionally untracked files
