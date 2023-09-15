@@ -94,10 +94,12 @@ Our best model uses sequential, convolutional, dense, and dropout layers and is 
 
 ## Evaluation Metrics
 We included a comparison of our baseline model and our best revised CNN with evaluation metrics in the table below:
-| Model                   | Precision (NORMAL) | Recall (NORMAL) | F1-Score (NORMAL) | Precision (PNEUMONIA) | Recall (PNEUMONIA) | F1-Score (PNEUMONIA) | Accuracy | 
-|-------------------------|--------------------|----------------|------------------|---------------------|--------------------|---------------------|----------|
-| Revised CNN             | 0.94               | 0.76           | 0.84             | 0.87                | 0.97               | 0.92                | 0.89     |
-| Baseline CNN            | 0.40               | 0.19           | 0.26             | 0.63                | 0.83               | 0.72                | 0.59     |
+| Model          | Class     | Precision | Recall | F1-Score |
+|----------------|-----------|-----------|--------|----------|
+| Revised CNN    | NORMAL    | 0.94      | 0.76   | 0.84     |
+| Revised CNN    | PNEUMONIA | 0.87      | 0.97   | 0.92     |
+| Baseline CNN   | NORMAL    | 0.40      | 0.19   | 0.26     |
+| Baseline CNN   | PNEUMONIA | 0.63      | 0.83   | 0.72     |
 
 
 ## Insights
