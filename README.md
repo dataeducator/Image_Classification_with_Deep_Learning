@@ -127,7 +127,7 @@ To maximize the effectiveness of our Pneumonia detection system, it is recommend
 - **High-Risk Areas and Communities**: Identify regions with elevated incidences of childhood pneumonia and establish scanning facilities near these communities.
 
 ## Future Work: 
-Please review my full analysis in [my Jupyter notebook]( ) or ([my presentation](https://github.com/dataeducator/image_classification_with_deep_learning/blob/main/presentation.pdf )).
+Please review my full analysis in [my Jupyter notebook](https://github.com/dataeducator/image_classification_with_deep_learning/blob/main/image_classification_with_deep_learning.ipynb ) or ([my presentation](https://github.com/dataeducator/image_classification_with_deep_learning/blob/main/presentation.pdf )).
 Feel free to contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you have any more questions.
 
 # Repository Structure
