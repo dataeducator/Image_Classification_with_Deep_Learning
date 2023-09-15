@@ -91,6 +91,9 @@ For our model, we could prioritize:
 
 Our best model uses sequential, convolutional, dense, and dropout layers and is illustrated below:
 ![Model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/c09fbb0b-835b-4e59-8a05-8d1fd41183a6)
+
+## Evaluation Metrics
+We included a comparison of our baseline model and our best revised CNN with evaluation metrics in the table below:
 | Model                   | Precision (NORMAL) | Recall (NORMAL) | F1-Score (NORMAL) | Precision (PNEUMONIA) | Recall (PNEUMONIA) | F1-Score (PNEUMONIA) | Accuracy | 
 |-------------------------|--------------------|----------------|------------------|---------------------|--------------------|---------------------|----------|
 | Revised CNN             | 0.94               | 0.76           | 0.84             | 0.87                | 0.97               | 0.92                | 0.89     |
@@ -98,6 +101,10 @@ Our best model uses sequential, convolutional, dense, and dropout layers and is 
 
 
 ## Insights
+- For the "NORMAL" class, the revised model exhibits significantly higher precision, recall, and F1-score values, indicating a more accurate identification of normal cases. 
+- For the "PNEUMONIA" class, the revised model demonstrates improved performance across all metrics for the " PNEUMONIA " class, suggesting it is more effective at detecting pneumonia cases than the baseline model.
+- Overall, the revised model achieves a substantially higher accuracy of 89% compared to the baseline model's 59%, highlighting its superior performance.
+  
 The Confusion Matrix for our Test set is shown here:
 ![Confusion Matrix best model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/aec157e2-2d7b-4257-828b-6df88e9ed755)
 
