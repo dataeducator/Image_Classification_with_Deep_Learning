@@ -5,9 +5,9 @@
 
 # Introduction: 
 #### __Disclaimer:__
-This work is __intended solely for educational purposes__. The included business case and the results of the deep learning models should not be interpreted as medical advice, and have not received endorsement or approval from any professional or medical organization.
-The models and outcomes presented here are for illustrative purposes __only__ and should __not__ be be utilized for making real-world decisions without consulting appropriate domain experts and medical professionals. Any actions taken based on the information in this notebook are at the user's own risk.
-The author and contributors off this noteboo disclaim any liability for the accuracy, completeness, or efficacy of the information provided.
+This work is __intended solely for educational purposes__. The included business case and the results of the deep learning models should not be interpreted as medical advice and have not received endorsement or approval from any professional or medical organization.
+The models and outcomes presented here are for illustrative purposes __only__ and should __not__ be utilized for making real-world decisions without consulting appropriate domain experts and medical professionals. Any actions taken based on the information in this notebook are at the user's own risk.
+The author and contributors of this notebook disclaim any liability for the information's accuracy, completeness, or efficacy.
 # Business Understanding:
 * __Stakeholder__: Zephyr Health
 * __Business Case__: I am a new data analyst on the Data Analytics team and have been tasked with building a model to classify whether a given patient has pneumonia given a chest x-ray.
@@ -20,8 +20,8 @@ The main objectives of this project are:
 * Generate a system that can be validated and deployed across various healthcare settings to reach underserved populations.
 
 # Metrics for evaluation
-Our task is in essence a binary classification problem that uses chest x-ray images as input. Our model will provide a prediction of whether the images is one that depicts PNEUMONIA or depicts a NORMAL chest x-ray. We will set the goal of __at least 90%  for the f-1 score__ .
-For our project we will use F1-score or the harmonic mean of recall and precision.
+Our task is a binary classification problem that uses chest x-ray images as input. Our model will predict whether the image depicts PNEUMONIA or a NORMAL chest x-ray. We will set the goal of __at least 90%  for the f-1 score__.
+Our project will use the F1-score or the harmonic mean of recall and precision.
 
 $$\
 F1\text{-}Score = \frac{{2 \cdot \text{True Positive}}}{{2 \cdot \text{True Positive} + \text{False Positive} + \text{False Negative}}}
@@ -57,18 +57,19 @@ These images fall into two distinct categories:
 - Normal
 
 
-The data was biased with the PNEUMONIA class having more than twice the number of images as the NORMAL class, so the PNEUMONIA class was shortened to a random selection of images equal to the number of NORMAL images in the training set.
+The data was biased, with the PNEUMONIA class having more than twice the number of images as the NORMAL class, so the PNEUMONIA class was shortened to a random selection of images equal to the number of NORMAL images in the training set.
 
 ![Class Distribution rebalanced training set](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/dda7cbf1-b39f-45c4-bcfa-f59bc742fee7)
 
 ## Modeling
 ![Model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/c09fbb0b-835b-4e59-8a05-8d1fd41183a6)
-
+![Confusion Matrix best model](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/aec157e2-2d7b-4257-828b-6df88e9ed755)
 
 ### Visualizations 
 
 ![Pixel Intensities of Sample Images](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/b0b11796-c5b4-4afd-a620-7402e6830588)
 
+![F1-scores different models](https://github.com/dataeducator/image_classification_with_deep_learning/assets/107881738/e79aac2b-8736-469e-a703-1e673746a2cd)
 
 ## Conclusion
 
@@ -79,7 +80,7 @@ The data was biased with the PNEUMONIA class having more than twice the number o
 * Identifying...
 
 Please review my full analysis in [my Jupyter notebook]( ) or ([my presentation]( )).
-You may contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you have additional questions.
+Feel free to contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you have additional questions.
 
 # Repository Structure
 ***
