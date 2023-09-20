@@ -128,7 +128,20 @@ To maximize the effectiveness of our Pneumonia detection system, it is recommend
 - **Pediatric Wards and Clinics**: Ensure accessibility to children in healthcare facilities where pneumonia cases are most frequently diagnosed and treated.
 - **High-Risk Areas and Communities**: Identify regions with elevated incidences of childhood pneumonia and establish scanning facilities near these communities.
 
-## Future Work: 
+## Future Work:
+In the pursuit of refining our Pneumonia detection system, several avenues for further research and development present themselves:
+
+* Model Testing and Comparison:
+
+* Evaluate additional pre-trained models, such as ResNet50, VGG19, and InceptionV3, which have demonstrated effectiveness on large and diverse datasets.
+Data Augmentation and Collection:
+
+* Augment the dataset to acquire more diverse and representative samples of Normal chest X-ray images. This will enhance the model's ability to distinguish between normal and abnormal cases accurately.
+Tertiary Classification Model:
+
+* Expand the task scope to include a tertiary classification model identifying the underlying cause of pneumonia (virus, bacteria, normal). This distinction is crucial as bacterial and viral-driven pneumonia treatment strategies vary significantly.
+
+These future steps will contribute to our Pneumonia detection system's continued improvement and versatility.
 Please review my full analysis in [my Jupyter notebook](https://github.com/dataeducator/image_classification_with_deep_learning/blob/main/image_classification_with_deep_learning.ipynb ) or ([my presentation](https://github.com/dataeducator/image_classification_with_deep_learning/blob/main/presentation.pdf )).
 Feel free to contact me __Tenicka Norwood__ at tenicka.norwood@gmail.com if you have any more questions.
 
